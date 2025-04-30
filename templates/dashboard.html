@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <form method="post" action="/scan" enctype="multipart/form-data">
+        <h2>Scan a Target</h2>
+        <input type="text" name="target" placeholder="Enter Web URL (optional)"><br>
+        <input type="file" name="apk"><br>
+        <input type="submit" value="Run Scan">
+    </form>
+    <footer><a href="/logout">Logout</a> • © 2025 YarraScan Tool</footer>
+</body>
+</html>
